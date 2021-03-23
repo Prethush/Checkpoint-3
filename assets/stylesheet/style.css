@@ -60,6 +60,7 @@ body {
     line-height: 1.5;
     font-size: 18px;
     color: rgb(2,45,91);
+    padding-bottom: 50px;
 }
 a {
     text-decoration: none;
@@ -76,6 +77,7 @@ a {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 32px;
+    width: 100%;
 }
 .btn {
     padding: 12px 20px;
@@ -116,10 +118,19 @@ a {
     font-weight: 700;
     margin-bottom: 10px;
 }
-
+.h4-style {
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub-page-heading {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
 .align {
  text-align: center;   
 }
+
 .sub-heading {
     font-size: 35px;
     font-weight: 700;
@@ -139,6 +150,26 @@ a {
 }
 .pbot {
     padding-bottom: 50px;
+}
+.transform {
+    text-transform: uppercase;
+}
+.m30top {
+    margin-top: 30px;
+}
+.m30bot {
+    margin-bottom: 30;
+}
+.m20top {
+    margin-top: 20px;
+}
+.m20bot {
+    margin-bottom: 20px;
+}
+
+.img-style {
+    width: 100%;
+    object-fit: cover;
 }
 /* Flex */
 
@@ -161,14 +192,11 @@ a {
 .flex-60 {
     flex: 0 1 60%;
 }
-
+.flex-65 {
+    flex: 0 1 65%;
+}
 .flex-30 {
     flex: 0 1 31.5%;
-}
-.new-flex  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .flex-40 {
     flex: 0 1 40%;
@@ -190,8 +218,20 @@ a {
 .flex-20 {
     flex: 0 1 20%;
 }
+.flex-70 {
+    flex: 0 1 70%;
+}
+.flex-75 {
+    flex: 0 1 75%;
+}
 .justify {
     justify-content: flex-start;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.modify-flex {
+    justify-content: space-around;
 }
 /* Navbar */
 
@@ -215,6 +255,8 @@ a {
 
 .sub-menu a {
     color:rgb(2,45,91);
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .sub-menu .btn {
@@ -238,7 +280,8 @@ a {
     /* background-color: yellow; */
     width: 450px;
     position: relative;
-    right: 200px;
+    top: 200px;
+    right: 210px;
 }
 
 .wrapper p {
@@ -256,7 +299,6 @@ a {
 } 
 
 /* Abour-team */
-
 
 .team-img img {
     width: 100%;
@@ -303,7 +345,7 @@ a {
 
 .col h4 {
     font-size: 20px;
-    font-weight: 7  00;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -392,6 +434,7 @@ select {
     border: 1px solid rgb(98, 140, 185);
     border-radius: 4px;
     color: #fff;
+    margin-right: 10px;
 }
 
 .form-details .btn {
@@ -430,7 +473,7 @@ select {
     text-transform: capitalize;
 }
 
-hr {
+.footer-bottom hr {
     border-top: 1px solid lightgray;
     margin-bottom: 30px;
 }
@@ -440,3 +483,226 @@ hr {
 .footer-bottom span, .footer-bottom i{
     color: rgb(248,100,106);
 }
+
+/* Contact */
+
+#contact {
+    background: url(/assets/media/Contact/contact_hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.flex-70 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+}
+
+.input-details input, .input-subject input {
+    width: 100%;
+    border: 1px solid gray;
+     margin-right: 5px; 
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.adress-details {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.adress-details h4{
+    font-weight: 600;
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+.icon i {
+    align-self: flex-start;
+    font-size: 18px;
+   
+}
+
+/* Serives */
+
+#service {
+    background: url(/assets/media/Services/services_hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* Cases */
+
+#cases {
+    background: url(/assets/media/Cases/cases_hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.gallery-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+.gallery-img img {
+    width: 100%;
+    object-fit: cover;
+}
+.image-name {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 80%;
+    background-color: #fff;
+}
+.image-name h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.image-name {
+    padding: 8px;
+}
+.image-name p {
+    font-size: 10px;
+}
+
+/* About */
+
+#about {
+    background: url(/assets/media/About/about_hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* Blog */
+
+#blog {
+    background: url(/assets/media/Blog/blog_hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+.blog-details .para-style {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.blog .date {
+    background-color: rgb(248,100,106);
+    position: relative;
+    color: #fff;
+    padding: 10px 20px;
+    bottom: 65px;
+    width: 85px;
+    border-radius: 4px;
+    left: 28px;
+}
+.blog h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.blog h3 {
+    font-size: 16px;
+}
+
+.blog-text {
+    position: relative;
+    left: 28px;
+    bottom: 30px;
+    width: 90%;
+}
+
+.blog-text h3 {
+    font-size: 20px;
+}
+
+.comment-section {
+    width: 230px;   
+    font-size: 12px;
+    color: gray;
+}
+
+.comments i {
+    margin-right: 6px;
+}
+
+.side-section {
+    align-self: flex-start;
+}
+
+.search-tab {
+    background-color: rgb(240, 233, 233);
+    padding: 15px;
+    width: 100%;
+}
+
+.search-tab input {
+    width: 82%;
+    height: 35px;
+    border: 0;
+    background-color: white;
+    position: relative;
+    left: 3px;
+}
+.search-tab .btn{
+    height: 35px;
+    padding: 8px;
+    border-radius: 0;
+}
+
+.search-tab .search {
+    display: block;
+}
+
+.category-tab, .recent-post, .tags-tab, .instagram-tab, .news-tab  {
+    padding: 20px;
+    background-color: rgb(240, 233, 233);
+}
+
+.category-tab hr, .recent-post hr, .tags-tab hr, .instagram-tab hr, .news-tab hr{
+    border-top: 1px solid rgb(201, 207, 214);
+}
+
+.post-text h5 {
+    font-weight: 600;
+}
+
+.post-text {
+    align-self: center;
+}
+
+.post-text .para-style {
+    margin: 0;
+}
+
+.tags-tab a {
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(2,45,91);
+}
+
+.tag {
+    background-color: white;
+    display: inline-block;
+    margin: 3px;
+}
+
+.news input, .news .btn{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.news input  {
+    border: 0;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.page-details span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(201, 207, 214);
+    padding: 15px;
+    font-size: 14px;
+    margin-right: 8px;
+} 
