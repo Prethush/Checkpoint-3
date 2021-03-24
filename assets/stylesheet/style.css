@@ -257,12 +257,11 @@ a {
     color:rgb(2,45,91);
     text-transform: uppercase;
     font-size: 16px;
-    padding: 10px;
-    border-radius: 4px;
+   
 }
 .sub-menu a:hover {
     color: red;
-    background-color: blue;
+    font-size: 20px;
 }
 
 .sub-menu .btn {
@@ -306,11 +305,6 @@ a {
 
 /* Abour-team */
 
-.team-img img {
-    width: 100%;
-    object-fit: cover;
-}
-
 .team3 {
     align-self: flex-start;
     padding: 25px;
@@ -337,10 +331,6 @@ a {
     right: 80px;    
 }
 
-.team5 p {
-    margin-bottom: 30px;
-}
-
 /* Services */
 
 
@@ -359,11 +349,6 @@ a {
 
 .case1 .para-style {
     margin-bottom: 40px;
-}
-
-.case-img img{
-    width: 100%;
-    object-fit: cover;
 }
 
 /* Testimonial */
@@ -401,11 +386,6 @@ a {
 .news-details small {
     font-size: 10px;
     color: gray;
-}
-
-.news-details img {
-    width: 100%;
-    object-fit: cover;
 }
 
 /* Forms */
@@ -460,9 +440,6 @@ select {
     align-self: flex-start;
 }
 
-.box1 img {
-    margin-bottom: 20px;
-}
 .box h4 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -481,7 +458,6 @@ select {
 
 .footer-bottom hr {
     border-top: 1px solid lightgray;
-    margin-bottom: 30px;
 }
 .footer-bottom {
     font-size: 14px;
@@ -548,10 +524,7 @@ select {
     position: relative;
     margin-bottom: 20px;
 }
-.gallery-img img {
-    width: 100%;
-    object-fit: cover;
-}
+
 .image-name {
     position: absolute;
     bottom: -25px;
@@ -601,8 +574,7 @@ select {
     left: 28px;
 }
 .blog h2 {
-    font-size: 24px;
-    font-weight: 700;
+    margin-bottom: 0;
 }
 .blog h3 {
     font-size: 16px;
@@ -615,8 +587,8 @@ select {
     width: 90%;
 }
 
-.blog-text h3 {
-    font-size: 20px;
+.blog-text .h4-style {
+    font-weight: 700;
 }
 
 .comment-section {
