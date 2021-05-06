@@ -275,7 +275,7 @@ a {
 
 .hero-bg {
     height: 100vh;
-    background: url(/assets/media/hero/h1_hero.jpg) center center no-repeat;
+    background: url("https://github.com/Prethush/Checkpoint-3/blob/main/assets/media/hero/h1_hero.jpg?raw=true") center center no-repeat;
     background-size: cover;
 }
 
